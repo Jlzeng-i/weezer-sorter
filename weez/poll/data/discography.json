@@ -1,0 +1,444 @@
+{
+  "albums": [
+    {
+      "title": "Weezer (Blue Album)",
+      "sort_order": 1,
+      "songs": [
+        "My Name Is Jonas",
+        "No One Else",
+        "The World Has Turned and Left Me Here",
+        "Buddy Holly",
+        "Undone - The Sweater Song",
+        "Surf Wax America",
+        "Say It Ain't So",
+        "In the Garage",
+        "Holiday",
+        "Only in Dreams"
+      ]
+    },
+    {
+      "title": "Weezer (Blue Album) Deluxe",
+      "sort_order": 2,
+      "songs": [
+        "Mykel and Carli",
+        "Susanne",
+        "My Evaline",
+        "Jamie",
+        "Paperface (Kitchen Tape Demo)",
+        "Lullabye for Wayne",
+        "I Swear It's True"
+      ]
+    },
+    {
+      "title": "Pinkerton",
+      "sort_order": 3,
+      "songs": [
+        "Tired of Sex",
+        "Getchoo",
+        "No Other One",
+        "Why Bother?",
+        "Across the Sea",
+        "The Good Life",
+        "El Scorcho",
+        "Pink Triangle",
+        "Falling for You",
+        "Butterfly"
+      ]
+    },
+    {
+      "title": "Pinkerton Deluxe",
+      "sort_order": 4,
+      "songs": [
+        "You Gave Your Love to Me Softly",
+        "Devotion",
+        "Waiting on You",
+        "I Just Threw Out the Love of My Dreams",
+        "You Won't Get with Me Tonight",
+        "Getting Up and Leaving",
+        "Tragic Girl",
+        "Long Time Sunshine"
+      ]
+    },
+    {
+      "title": "Weezer (Green Album)",
+      "sort_order": 5,
+      "songs": [
+        "Don't Let Go",
+        "Photograph",
+        "Hash Pipe",
+        "Island in the Sun",
+        "Crab",
+        "Knock-Down Drag-Out",
+        "Smile",
+        "Simple Pages",
+        "Glorious Day",
+        "O Girlfriend"
+      ]
+    },
+    {
+      "title": "Maladroit",
+      "sort_order": 6,
+      "songs": [
+        "American Gigolo",
+        "Dope Nose",
+        "Keep Fishin'",
+        "Take Control",
+        "Death and Destruction",
+        "Slob",
+        "Burndt Jamb",
+        "Space Rock",
+        "Slave",
+        "Fall Together",
+        "Possibilities",
+        "Love Explosion",
+        "December"
+      ]
+    },
+    {
+      "title": "Make Believe",
+      "sort_order": 7,
+      "songs": [
+        "Beverly Hills",
+        "Perfect Situation",
+        "This Is Such a Pity",
+        "Hold Me",
+        "Peace",
+        "We Are All on Drugs",
+        "The Damage in Your Heart",
+        "Pardon Me",
+        "My Best Friend",
+        "The Other Way",
+        "Freak Me Out",
+        "Haunt You Every Day"
+      ]
+    },
+    {
+      "title": "Weezer (Red Album)",
+      "sort_order": 8,
+      "songs": [
+        "Troublemaker",
+        "The Greatest Man That Ever Lived (Variations on a Shaker Hymn)",
+        "Pork and Beans",
+        "Heart Songs",
+        "Everybody Get Dangerous",
+        "Dreamin'",
+        "Thought I Knew",
+        "Cold Dark World",
+        "Automatic",
+        "The Angel and the One"
+      ]
+    },
+    {
+      "title": "Weezer (Red Album) Deluxe",
+      "sort_order": 9,
+      "songs": [
+        "Miss Sweeney",
+        "Pig",
+        "The Spider",
+        "King",
+        "It's Easy",
+        "I Can Love"
+      ]
+    },
+    {
+      "title": "Raditude",
+      "sort_order": 10,
+      "songs": [
+        "(If You're Wondering If I Want You To) I Want You To",
+        "I'm Your Daddy",
+        "The Girl Got Hot",
+        "Can't Stop Partying",
+        "Put Me Back Together",
+        "Trippin' Down the Freeway",
+        "Love Is the Answer",
+        "Let It All Hang Out",
+        "In the Mall",
+        "I Don't Want to Let You Go"
+      ]
+    },
+    {
+      "title": "Raditude Deluxe",
+      "sort_order": 11,
+      "songs": [
+        "Get Me Some",
+        "Run Over by a Truck",
+        "The Prettiest Girl in the Whole Wide World",
+        "The Underdogs"
+      ]
+    },
+    {
+      "title": "Hurley",
+      "sort_order": 12,
+      "songs": [
+        "Memories",
+        "Ruling Me",
+        "Trainwrecks",
+        "Unspoken",
+        "Where's My Sex?",
+        "Run Away",
+        "Hang On",
+        "Smart Girls",
+        "Brave New World",
+        "Time Flies"
+      ]
+    },
+    {
+      "title": "Hurley Deluxe",
+      "sort_order": 13,
+      "songs": [
+        "All My Friends Are Insects",
+        "Viva la Vida",
+        "I Want to Be Something"
+      ]
+    },
+    {
+      "title": "Death to False Metal",
+      "sort_order": 14,
+      "songs": [
+        "Turning Up the Radio",
+        "I Don't Want Your Loving",
+        "Blowin' My Stack",
+        "Losing My Mind",
+        "Everyone",
+        "I'm a Robot",
+        "Trampoline",
+        "The Odd Couple",
+        "Autopilot",
+        "Unbreak My Heart"
+      ]
+    },
+    {
+      "title": "Everything Will Be Alright in the End",
+      "sort_order": 15,
+      "songs": [
+        "Ain't Got Nobody",
+        "Back to the Shack",
+        "Eulogy for a Rock Band",
+        "Lonely Girl",
+        "I've Had It Up to Here",
+        "The British Are Coming",
+        "Da Vinci",
+        "Go Away",
+        "Cleopatra",
+        "Foolish Father",
+        "The Futurescope Trilogy: The Waste Land",
+        "The Futurescope Trilogy: Anonymous",
+        "The Futurescope Trilogy: Return to Ithaka"
+      ]
+    },
+    {
+      "title": "Weezer (White Album)",
+      "sort_order": 16,
+      "songs": [
+        "California Kids",
+        "Wind in Our Sail",
+        "Thank God for Girls",
+        "(Girl We Got a) Good Thing",
+        "Do You Wanna Get High?",
+        "King of the World",
+        "Summer Elaine and Drunk Dori",
+        "L.A. Girlz",
+        "Jacked Up",
+        "Endless Bummer"
+      ]
+    },
+    {
+      "title": "Weezer (White Album) Deluxe",
+      "sort_order": 17,
+      "songs": [
+	    "I Love the USA",
+        "Friend of a Friend",
+        "Fake Smiles and Nervous Laughter",
+        "The Last Days of Summer",
+        "Prom Night"
+      ]
+    },
+    {
+      "title": "Pacific Daydream",
+      "sort_order": 18,
+      "songs": [
+        "Mexican Fender",
+        "Beach Boys",
+        "Feels Like Summer",
+        "Happy Hour",
+        "Weekend Woman",
+        "QB Blitz",
+        "Sweet Mary",
+        "Get Right",
+        "La Mancha Screwjob",
+        "Any Friend of Diane's"
+      ]
+    },
+    {
+      "title": "Weezer (Teal Album)",
+      "sort_order": 19,
+      "songs": [
+        "Africa",
+        "Everybody Wants to Rule the World",
+        "Sweet Dreams (Are Made of This)",
+        "Take on Me",
+        "Happy Together",
+        "Paranoid",
+        "Mr. Blue Sky",
+        "No Scrubs",
+        "Billie Jean",
+        "Stand by Me"
+      ]
+    },
+    {
+      "title": "Weezer (Black Album)",
+      "sort_order": 20,
+      "songs": [
+        "Can't Knock the Hustle",
+        "Zombie Bastards",
+        "High as a Kite",
+        "Living in L.A.",
+        "Piece of Cake",
+        "I'm Just Being Honest",
+        "Too Many Thoughts in My Head",
+        "The Prince Who Wanted Everything",
+        "Byzantine",
+        "California Snow"
+      ]
+    },
+    {
+      "title": "OK Human",
+      "sort_order": 21,
+      "songs": [
+        "All My Favorite Songs",
+        "Aloo Gobi",
+        "Grapes of Wrath",
+        "Numbers",
+        "Playing My Piano",
+        "Mirror Image",
+        "Screens",
+        "Bird with a Broken Wing",
+        "Dead Roses",
+        "Everything Happens for a Reason",
+        "Here Comes the Rain",
+        "La Brea Tar Pits"
+      ]
+    },
+    {
+      "title": "Van Weezer",
+      "sort_order": 22,
+      "songs": [
+        "Hero",
+        "All the Good Ones",
+        "The End of the Game",
+        "I Need Some of That",
+        "Beginning of the End",
+        "Blue Dream",
+        "1 More Hit",
+        "Sheila Can Do It",
+        "She Needs Me",
+        "Precious Metal Girl"
+      ]
+    },
+    {
+      "title": "SZNZ: Spring",
+      "sort_order": 23,
+      "songs": [
+        "Opening Night",
+        "Angels on Vacation",
+        "A Little Bit of Love",
+        "The Garden of Eden",
+        "The Sound of Drums",
+        "All This Love",
+        "Wild at Heart"
+      ]
+    },
+    {
+      "title": "SZNZ: Summer",
+      "sort_order": 24,
+      "songs": [
+        "Lawn Chair",
+        "Records",
+        "Blue Like Jazz",
+        "The Opposite of Me",
+        "What's the Good of Being Good",
+        "Cuomoville",
+        "Thank You and Good Night"
+      ]
+    },
+    {
+      "title": "SZNZ: Autumn",
+      "sort_order": 25,
+      "songs": [
+        "Can't Dance, Don't Ask Me",
+        "Get Off on the Pain",
+        "What Happens After You?",
+        "Francesca",
+        "Should She Stay or Should She Go",
+        "Tastes Like Pain",
+        "Run, Raven, Run"
+      ]
+    },
+    {
+      "title": "SZNZ: Winter",
+      "sort_order": 26,
+      "songs": [
+        "I Want a Dog",
+        "Iambic Pentameter",
+        "Basketball",
+        "Sheraton Commander",
+        "Dark Enough to See the Stars",
+        "The One That Got Away",
+        "The Deep and Dreamless Sleep"
+      ]
+    },
+	{
+      "title": "Weezer (Gold Album)",
+      "sort_order": 27,
+      "songs": [
+        "Say Yes",
+		"Shine Again",
+		"Don't Make It Weird",
+		"We Might as Well Be Strangers",
+		"C.E.O.",
+		"Hoops",
+		"Nowhere",
+		"The Show Must Go On",
+		"Up In the Clouds",
+		"The LA Sound"
+      ]
+    },
+	{
+      "title": "Christmas With Weezer",
+      "sort_order": 40,
+      "songs": [
+        "We Wish You A Merry Christmas",
+		"O Come All Ye Faithful",
+		"O Holy Night",
+		"The First Noel",
+		"Hark! The Herald Angels Sing",
+		"Silent Night"
+      ]
+    },
+	{
+	  "title": "Officially Released / One-Offs",
+	  "sort_order": 998,
+	  "songs": [
+		"You Might Think",
+		"It's Always Sunny in Bikini Bottom",
+		"Lost in the Woods (Weezer Version)",
+		"Enter Sandman",
+		"Everybody Needs Salvation",
+		"It's Been So Long",
+		"Tell Me What You Want",
+		"Beginning of the End (Wyld Stallyns Edit)",
+		"I Wish It Could Be Christmas Everyday",
+		"Here Comes My Girl",
+		"I Do",
+		"Starlight",
+		"Represent"
+	  ]
+	},
+    {
+      "title": "Unreleased / Demos",
+      "sort_order": 999,
+      "songs": [
+      ]
+    }
+  ]
+}

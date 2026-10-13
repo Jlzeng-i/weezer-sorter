@@ -24,6 +24,7 @@ class SongAdmin(admin.ModelAdmin):
     list_filter = ("album",)
     search_fields = ("title",)
     list_select_related = ("album",)  # avoids one extra query per row
+    list_editable = ("spotify_id", "youtube_id")
 
 
 @admin.register(Voter)

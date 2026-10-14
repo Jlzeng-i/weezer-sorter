@@ -1,8 +1,11 @@
 from django.urls import path
 from . import views
 
+app_name = "poll"
+
 urlpatterns = [
-    path("", views.index, name="index"),
+    path("", views.matchup, name="matchup"),
+    path("ranking", views.ranking, name="ranking"),
 ]
 
 from django.conf import settings

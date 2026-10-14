@@ -24,9 +24,11 @@ class ServicesTestCase(TestCase):
  
     def setUp(self):
         self.album = Album.objects.create(title="Test Album")
+        self.album2 = Album.objects.create(title="Test Album2")
         self.a = Song.objects.create(album=self.album, title="A")
         self.b = Song.objects.create(album=self.album, title="B")
         self.c = Song.objects.create(album=self.album, title="C")
+        self.d = Song.objects.create(album=self.album2, title="D")
         self.voter = Voter.objects.create()
  
  
@@ -80,6 +82,12 @@ class RecordVoteTests(ServicesTestCase):
         # Now try to record B beats A, which contradicts the previous vote.
         self.assertIsNone(record_vote(self.voter, self.b.id, self.a.id))
         self.assertEqual(Vote.objects.count(), 1)
+    
+    def test_vote_with_string_ids_is_handled(self):
+        vote = record_vote(self.voter, str(self.a.id), str(self.b.id))
+        self.assertEqual(Vote.objects.count(), 1)
+        self.assertEqual(vote.winner, self.a)
+        self.assertEqual(vote.loser, self.b)
  
  
 class RankingTests(ServicesTestCase):
@@ -91,15 +99,16 @@ class RankingTests(ServicesTestCase):
         self.assertEqual(prog, 1.0)
 
 class PoolTests(ServicesTestCase):
-    def test_get_pool_empty_when_no_labum_ids(self):
+    def test_get_pool_empty_when_no_album_ids(self):
         self.assertEqual(get_pool(), [])
     def test_get_pool_returns_songs_for_album_ids(self):
         self.assertEqual(set(get_pool([self.album.id])), {self.a.id, self.b.id, self.c.id})
-    def next_matchup_returns_none_when_no_pairs_left(self):
+        self.assertEqual(set(get_pool([self.album.id, self.album2.id])), {self.a.id, self.b.id, self.c.id, self.d.id})
+    def test_next_matchup_returns_none_when_no_pairs_left(self):
         record_vote(self.voter, self.a.id, self.b.id)
         record_vote(self.voter, self.b.id, self.c.id)
         self.assertIsNone(next_matchup(self.voter, [self.album.id]))
-    def next_matchup_returns_pair_when_available(self):
+    def test_next_matchup_returns_pair_when_available(self):
         pair = next_matchup(self.voter, [self.album.id])
         self.assertIsNotNone(pair)
         self.assertNotEqual(pair[0], pair[1])

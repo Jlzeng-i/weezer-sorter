@@ -1,6 +1,6 @@
 import uuid
-
-from .models import Voter, Album
+from .pairing import known_order, pick_pair, progress, rank_songs
+from .models import Voter, Album, Song, Vote
 
 def get_voter(request):
     raw_id = request.session.get("voter_id")
@@ -8,9 +8,9 @@ def get_voter(request):
         return None
     try:
         voter_id = uuid.UUID(raw_id)
-        except ValueError:
-            return None
-        return Voter.objects.filter(pk=voter_id).first()
+    except ValueError:
+        return None
+    return Voter.objects.filter(pk=voter_id).first()
 
 def get_or_create_voter(request):
     voter = get_voter(request)
@@ -22,8 +22,10 @@ def get_or_create_voter(request):
 def get_pool(album_ids=None):
     songs = Song.objects.all()
     if album_ids is not None:
-        songs = []
-    return list(songs.values_list("id", flat=True))
+        songs = songs.filter(album_id__in=album_ids)
+        return list(songs.values_list("id", flat=True))
+    else:
+        return []
 
 def get_edges(voter):
     #if voter has no votes, return an empty list. Otherwise, return a list of (winner_id, loser_id) tuples for all votes by this voter.
